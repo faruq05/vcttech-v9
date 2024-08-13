@@ -1,0 +1,187 @@
+<div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <input name="business_purpose" id="business-purpose" class="email input-standard-grey"
+                                required placeholder="Business Purpose" type="text" />
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <input name="phone2" id="email" class="email input-standard-grey" placeholder="Phone "
+                                type="tel" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <input name="address2" id="address" class="email input-standard-grey" placeholder="Address"
+                                type="text" />
+                        </div>
+                    </div>
+                    <div class="row" id="email-inputs">
+                        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-9">
+                            <div class="email-group">
+                                <input name="email" class="email input-standard-grey" placeholder="Email Address" type="email" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="desired-sectionsRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="des-web">
+                                <p>Website sections desired:</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Home" name="checkboxes[]"
+                                    id="HomeCheckbox" />
+                                <label class="form-check-label lbl-cs" for="HomeCheckbox"> <strong>Home</strong>: The
+                                    main landing page that provides an overview of the website's content and navigation.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="About-Us" name="checkboxes[]"
+                                    id="AboutUsCheckbox" />
+                                <label class="form-check-label" for="AboutUsCheckbox">
+                                    <strong>About Us</strong>: Information about the company, organization, or
+                                    individual behind the website, including their mission, history, and values.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Products-Services"
+                                    name="checkboxes[]" id="ProductsServicesCheckbox" />
+                                <label class="form-check-label" for="ProductsServicesCheckbox">
+                                    <strong>Products/Services</strong>: A section showcasing the products or services
+                                    offered by the company, along with detailed descriptions, images, and pricing.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Contact-Us" name="checkboxes[]"
+                                    id="ContactUsCheckbox" />
+                                <label class="form-check-label" for="ContactUsCheckbox">
+                                    <strong>Contact Us</strong>: Contact information such as email addresses, phone
+                                    numbers, and physical addresses, as well as a contact form for inquiries or
+                                    feedback.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Blog-News" name="checkboxes[]"
+                                    id="BlogNewsCheckbox" />
+                                <label class="form-check-label" for="BlogNewsCheckbox"> <strong>Blog/News</strong>:
+                                    Articles, updates, or news related to the company's industry, products, or services.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Portfolio-Projects"
+                                    name="checkboxes[]" id="PortfolioProjectsCheckbox" />
+                                <label class="form-check-label" for="PortfolioProjectsCheckbox">
+                                    <strong>Portfolio/Projects</strong>: Examples of past work, projects, or case
+                                    studies to showcase the company's capabilities and expertise.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Testimonials" name="checkboxes[]"
+                                    id="TestimonialsCheckbox" />
+                                <label class="form-check-label" for="TestimonialsCheckbox">
+                                    <strong>Testimonials</strong>: Reviews, testimonials, or endorsements from satisfied
+                                    customers or clients. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="FAQ" name="checkboxes[]"
+                                    id="FAQCheckbox" />
+                                <label class="form-check-label" for="FAQCheckbox"> <strong>FAQ</strong>: Frequently
+                                    asked questions and answers to provide visitors with quick information and address
+                                    common inquiries. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Events-Calendar"
+                                    name="checkboxes[]" id="EventsCalendarCheckbox" />
+                                <label class="form-check-label" for="EventsCalendarCheckbox">
+                                    <strong>Events/Calendar</strong>: Upcoming events, webinars, or workshops hosted or
+                                    sponsored by the company. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Resources" name="checkboxes[]"
+                                    id="ResourcesCheckbox" />
+                                <label class="form-check-label" for="ResourcesCheckbox"> <strong>Resources</strong>:
+                                    Helpful resources, guides, whitepapers, or downloads related to the company's
+                                    industry or offerings. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Careers" name="checkboxes[]"
+                                    id="CareersCheckbox" />
+                                <label class="form-check-label" for="CareersCheckbox"> <strong>Careers</strong>:
+                                    Information about job openings, career opportunities, and how to apply for positions
+                                    within the company. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Gallery" name="checkboxes[]"
+                                    id="GalleryCheckbox" />
+                                <label class="form-check-label" for="GalleryCheckbox"> <strong>Gallery</strong>: A
+                                    collection of images or videos showcasing products, projects, events, or
+                                    behind-the-scenes content. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Partnerships-Affiliations"
+                                    name="checkboxes[]" id="PartnershipsAffiliationsCheckbox" />
+                                <label class="form-check-label" for="PartnershipsAffiliationsCheckbox">
+                                    <strong>Partnerships/Affiliations</strong>: Information about partnerships,
+                                    affiliations, or collaborations with other organizations or businesses.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Support-Help" name="checkboxes[]"
+                                    id="SupportHelpCheckbox" />
+                                <label class="form-check-label" for="SupportHelpCheckbox">
+                                    <strong>Support/Help</strong>: Resources, documentation, or FAQs to assist customers
+                                    with using products or services, as well as options for contacting customer support.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Legal-Privacy"
+                                    name="checkboxes[]" id="LegalPrivacyCheckbox" />
+                                <label class="form-check-label" for="LegalPrivacyCheckbox">
+                                    <strong>Legal/Privacy</strong>: Legal information such as terms of service, privacy
+                                    policy, cookie policy, and copyright notices to ensure compliance and protect
+                                    visitors' rights and data privacy.
+                                </label>
+                            </div>
+                            <div class="form-check OtherCheck">
+                                <input class="form-check-input" type="checkbox" value="Other-Request"
+                                    name="checkboxes[]" id="OtherCheckbox" />
+                                <label class="form-check-label" for="OtherCheckbox"> <strong>Other (please
+                                        specify)</strong>: Other custom request. </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="otherPagesRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="otherPagesColumn">
+                            <div class="others-group">
+                                <input class="email input-standard-grey" placeholder="Other Pages" type="text"
+                                    name="otherMorePages" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <textarea name="comments2" id="comments" required class="email input-standard-grey"
+                                placeholder="Comments"></textarea>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

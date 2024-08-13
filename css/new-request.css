@@ -1,0 +1,207 @@
+#newRequest input::placeholder {
+  color: #1d1d1d !important;
+}
+#newRequest textarea::placeholder {
+  color: #1d1d1d !important;
+}
+#newRequest .form-check {
+  margin-bottom: 15px;
+}
+#newRequest .form-check-input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+  max-width: 40px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+ 
+  #otherPagesRow {
+    transition: display 0.5s ease-in-out;
+  }
+  #otherPagesRow {
+    display: none;
+  }
+  .form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .input-standard-grey > #file-upload-button{
+    background-color: red;
+  }
+  .input-group {
+    /* Adjust width if needed */
+    width: 200px;
+  }
+  .radio-grp{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  .radio-grp-2{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .input-group-btn {
+    /* Style the button container (optional) */
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .input-group-label{
+    display: inline;
+  }
+  .input-group-text{
+    display: inline-flex;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .form-control {
+    /* Style the input field (optional) */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .upload-btn{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .upload-btn label{
+    border-radius: 50px;
+    background-color: #f7f9f9;
+    padding: 20px 40px;
+    border-color: transparent;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .upload-btn label:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 113, 255);
+    box-shadow: rgb(211, 220, 220) 17px 0px 60px;
+  }
+  #file-chosen{
+    margin-left: 0.5rem;
+  }
+
+ .add-btn {
+    margin-left: 10px;
+}
+.remove-btn{
+  margin-left: 25px;
+}
+.email-field {
+    margin-bottom: 10px; 
+}
+.email-group {
+  display: flex;
+  align-items: center;
+}
+.add-btn{
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 4px;
+  padding: 17px 25px; 
+  border-radius: 30px;
+  cursor: pointer; 
+  background-color: #f7f9f9;
+  color: rgb(130, 130, 130);
+}
+.remove-btn {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 8px;
+  padding: 14px 20px; 
+  border-radius: 30px;
+  cursor: pointer; 
+  background-color: #f7f9f9;
+}
+.add-btn:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 113, 255);
+  box-shadow: rgb(211, 220, 220) 17px 0px 60px;
+}
+.remove-btn:hover{
+  background-color: #E72929;
+  color: #ffffff;
+  box-shadow: rgb(211, 220, 220) 17px 0px 60px;
+}
+.new-email-input, .new-link-input{
+  margin-left: 0;
+  margin-right: 0;
+}
+.des-web p{
+  margin-bottom: 20px;
+}
+.designLabelRequest{
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.nice-select{
+  color: rgb(150, 150, 150);
+}
+.OtherCheck{
+  padding-bottom: 10px;
+}
+.csm-from .form-check{
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px !important;
+}
+.csm-from input {
+  margin-bottom: 0;
+  flex: 1;
+  max-width:30px !important;
+}
+
+.nice-select .current{
+  margin-left: 20px;
+}
+
+#other-field{
+  display: none;
+}
+.nice-select::after {
+  right: 30px;
+  top: 52%;
+}
+.check-list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media  (max-width: 767px) {
+  .add-btn, .remove-btn {
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 12px 17px; 
+    border-radius: 30px;
+    cursor: pointer; 
+    background-color: #f7f9f9;
+  }
+  .lrg-btn{
+    display: none;
+  }
+}
+@media  (max-width: 575.98px) {
+  .radio-grp{
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  .radio-grp-2{
+    display: inline-flex;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sml-btn{
+    display: none;
+  }
+}
